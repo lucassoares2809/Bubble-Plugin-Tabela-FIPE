@@ -9,7 +9,7 @@
             "rank": 0,
             "ret_value": "api.1581000706108x429237425699291140.plugin_api.AAC",
             "types": "{\"plugin_api.AAC\":{\"caption\":\"FIPE - Consultar Tabela Referência\",\"fields\":{\"_p_Codigo\":{\"ret_value\":\"number\",\"caption\":\"Codigo\",\"path\":[\"Codigo\"]},\"_p_Mes\":{\"ret_value\":\"text\",\"caption\":\"Mes\",\"path\":[\"Mes\"]}}}}",
-            "url": "http://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia"
+            "url": "https://veiculos.fipe.org.br/api/veiculos/ConsultarTabelaDeReferencia"
         },
         "AAG": {
             "body": "{\n\t\"codigoTabelaReferencia\": <Tabela de Referência>,\n\t\"codigoTipoVeiculo\": <Tipo de Veiculo>\n}",
@@ -35,7 +35,7 @@
             "rank": 1,
             "ret_value": "api.1581000706108x429237425699291140.plugin_api.AAG",
             "types": "{\"plugin_api.AAG\":{\"caption\":\"FIPE - Consultar Marca\",\"fields\":{\"_p_Label\":{\"ret_value\":\"text\",\"caption\":\"Label\",\"path\":[\"Label\"]},\"_p_Value\":{\"ret_value\":\"text\",\"caption\":\"Value\",\"path\":[\"Value\"]}}}}",
-            "url": "http://veiculos.fipe.org.br/api/veiculos/ConsultarMarcas"
+            "url": "https://veiculos.fipe.org.br/api/veiculos/ConsultarMarcas"
         },
         "AAh": {
             "body": "{\n  \"codigoTabelaReferencia\": <Tabela de Referência>,\n  \"codigoTipoVeiculo\": <Tipo de Veiculo>,\n  \"codigoMarca\": <Codigo Marca>\n}",
@@ -66,7 +66,7 @@
             "rank": 2,
             "ret_value": "api.1581000706108x429237425699291140.plugin_api.AAh",
             "types": "{\"plugin_api.AAh\":{\"caption\":\"FIPE - Consultar Modelo\",\"fields\":{\"_p_Modelos\":{\"ret_value\":\"list.api.1581000706108x429237425699291140.plugin_api.AAh.Modelos\",\"caption\":\"Modelos\",\"path\":[\"Modelos\"]},\"_p_Anos\":{\"ret_value\":\"list.api.1581000706108x429237425699291140.plugin_api.AAh.Anos\",\"caption\":\"Anos\",\"path\":[\"Anos\"]}}},\"plugin_api.AAh.Modelos\":{\"caption\":\"FIPE - Consultar Modelos Modelo\",\"fields\":{\"_p_Label\":{\"ret_value\":\"text\",\"caption\":\"Label\",\"path\":[\"Label\"]},\"_p_Value\":{\"ret_value\":\"text\",\"caption\":\"Value\",\"path\":[\"Value\"]}}},\"plugin_api.AAh.Anos\":{\"caption\":\"FIPE - Consultar Modelos Ano\",\"fields\":{\"_p_Label\":{\"ret_value\":\"text\",\"caption\":\"Label\",\"path\":[\"Label\"]},\"_p_Value\":{\"ret_value\":\"text\",\"caption\":\"Value\",\"path\":[\"Value\"]}}}}",
-            "url": "http://veiculos.fipe.org.br/api/veiculos/ConsultarModelos"
+            "url": "https://veiculos.fipe.org.br/api/veiculos/ConsultarModelos"
         },
         "ABu": {
             "body": "{\n  \"codigoTabelaReferencia\": <Tabela de Referência>,\n  \"codigoTipoVeiculo\": <Tipo de Veiculo>,\n  \"codigoMarca\": <Codigo Marca>,\n  \"codigoModelo\": <Codigo Modelo>\n}",
@@ -104,7 +104,7 @@
             "rank": 3,
             "ret_value": "api.1581000706108x429237425699291140.plugin_api.ABu",
             "types": "{\"plugin_api.ABu\":{\"caption\":\"FIPE - Consultar Ano Modelo\",\"fields\":{\"_p_Label\":{\"ret_value\":\"text\",\"caption\":\"Label\",\"path\":[\"Label\"]},\"_p_Value\":{\"ret_value\":\"text\",\"caption\":\"Value\",\"path\":[\"Value\"]}}}}",
-            "url": "http://veiculos.fipe.org.br/api/veiculos/ConsultarAnoModelo"
+            "url": "https://veiculos.fipe.org.br/api/veiculos/ConsultarAnoModelo"
         },
         "ACA": {
             "0": "A",
@@ -157,7 +157,7 @@
             "rank": 4,
             "ret_value": "api.1581000706108x429237425699291140.plugin_api.ACA",
             "types": "{\"plugin_api.ACA\":{\"caption\":\"FIPE - Consultar Modelos pelo Ano\",\"fields\":{\"_p_Label\":{\"ret_value\":\"text\",\"caption\":\"Label\",\"path\":[\"Label\"]},\"_p_Value\":{\"ret_value\":\"text\",\"caption\":\"Value\",\"path\":[\"Value\"]}}}}",
-            "url": "http://veiculos.fipe.org.br/api/veiculos/ConsultarModelosAtravesDoAno"
+            "url": "https://veiculos.fipe.org.br/api/veiculos/ConsultarModelosAtravesDoAno"
         },
         "ACw": {
             "0": "A",
@@ -215,7 +215,7 @@
             "rank": 5,
             "ret_value": "api.1581000706108x429237425699291140.plugin_api.ACw",
             "types": "{\"plugin_api.ACw\":{\"caption\":\"FIPE - Consultar Valor\",\"fields\":{\"_p_Valor\":{\"ret_value\":\"text\",\"caption\":\"Valor\",\"path\":[\"Valor\"]},\"_p_Marca\":{\"ret_value\":\"text\",\"caption\":\"Marca\",\"path\":[\"Marca\"]},\"_p_Modelo\":{\"ret_value\":\"text\",\"caption\":\"Modelo\",\"path\":[\"Modelo\"]},\"_p_AnoModelo\":{\"ret_value\":\"text\",\"caption\":\"AnoModelo\",\"path\":[\"AnoModelo\"]},\"_p_Combustivel\":{\"ret_value\":\"text\",\"caption\":\"Combustivel\",\"path\":[\"Combustivel\"]},\"_p_CodigoFipe\":{\"ret_value\":\"text\",\"caption\":\"CodigoFipe\",\"path\":[\"CodigoFipe\"]},\"_p_MesReferencia\":{\"ret_value\":\"text\",\"caption\":\"MesReferencia\",\"path\":[\"MesReferencia\"]},\"_p_Autenticacao\":{\"ret_value\":\"text\",\"caption\":\"Autenticacao\",\"path\":[\"Autenticacao\"]},\"_p_TipoVeiculo\":{\"ret_value\":\"text\",\"caption\":\"TipoVeiculo\",\"path\":[\"TipoVeiculo\"]},\"_p_SiglaCombustivel\":{\"ret_value\":\"text\",\"caption\":\"SiglaCombustivel\",\"path\":[\"SiglaCombustivel\"]},\"_p_DataConsulta\":{\"ret_value\":\"text\",\"caption\":\"DataConsulta\",\"path\":[\"DataConsulta\"]}}}}",
-            "url": "http://veiculos.fipe.org.br/api/veiculos/ConsultarValorComTodosParametros"
+            "url": "https://veiculos.fipe.org.br/api/veiculos/ConsultarValorComTodosParametros"
         }
     },
     "human": "FIPE",
@@ -229,7 +229,7 @@
         "ADD": {
             "key": "Referer",
             "private": true,
-            "value": "http://veiculos.fipe.org.br",
+            "value": "https://veiculos.fipe.org.br",
             "visibility": "hidden"
         },
         "ADE": {
